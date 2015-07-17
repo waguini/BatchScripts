@@ -18,7 +18,7 @@ set "zipslist=*.zip *.rar *.7z *.tar *.ace"
 set "binlist=*.exe *.msi"
 set "videoslist=*.avi *.rmvb *.wmv *.mp4 *.3gp *.mp4 *.flv *.mkv *.mov *.rm *.mpg *.mpeg"
 set "torrentslist=*.torrent"
-set "musiclist=*.mp3 *.wav *.aac *.ogg"
+set "songlist=*.mp3 *.wav *.aac *.ogg"
 
 ::end of lists
 
@@ -29,7 +29,7 @@ call:Organize "Documents",    "%docslist%"
 call:Organize "PDFS", 		  "%pdfslist%"
 call:Organize "Zips", 		  "%zipslist%"
 call:Organize "Videos", 	  "%videoslist%" 
-
+call:Organize "Songs"		  "%musiclist%"	
 
 ::::::::::::::::::::
 ::function session::
