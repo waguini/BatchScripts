@@ -29,7 +29,7 @@ call:Organize "Documents",    "%docslist%"
 call:Organize "PDFS", 		  "%pdfslist%"
 call:Organize "Zips", 		  "%zipslist%"
 call:Organize "Videos", 	  "%videoslist%" 
-call:Organize "Songs"		  "%musiclist%"	
+call:Organize "Songs"		  "%songlist%"	
 
 ::::::::::::::::::::
 ::function session::
