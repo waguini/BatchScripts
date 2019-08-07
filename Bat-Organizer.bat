@@ -12,7 +12,7 @@ pause
 
 ::lists containing the filetypes
 set "imagelist=*.jpg *.png *.gif *.jpeg *.bmp "
-set "docslist=*.docx *.doc *.xls *.xlsx *.odf *.rtf *.ppt *.pptx *.odt "
+set "docslist=*.docx *.doc *.xls *.xlsx *.odf *.rtf *.ppt *.pptx *.odt *.csv"
 set "pdfslist=*.pdf *.mobi *.epub"
 set "zipslist=*.zip *.rar *.7z *.tar *.ace *.tar *.tar.gz *.bz2 *.gz *.gzip"
 set "binlist=*.exe *.msi *.bin"
