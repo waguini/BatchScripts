@@ -11,12 +11,12 @@ pause
 
 
 ::lists containing the filetypes
-set "imagelist=*.jpg *.png *.gif *.jpeg *.bmp"
-set "docslist=*.docx *.doc *.xls *.xlsx *.odf *.rtf"
-set "pdfslist=*.pdf"
-set "zipslist=*.zip *.rar *.7z *.tar *.ace"
-set "binlist=*.exe *.msi"
-set "videoslist=*.avi *.rmvb *.wmv *.mp4 *.3gp *.mp4 *.flv *.mkv *.mov *.rm *.mpg *.mpeg"
+set "imagelist=*.jpg *.png *.gif *.jpeg *.bmp "
+set "docslist=*.docx *.doc *.xls *.xlsx *.odf *.rtf *.ppt *.pptx *.odt "
+set "pdfslist=*.pdf *.mobi *.epub"
+set "zipslist=*.zip *.rar *.7z *.tar *.ace *.tar *.tar.gz *.bz2 *.gz *.gzip"
+set "binlist=*.exe *.msi *.bin"
+set "videoslist=*.avi *.rmvb *.wmv *.mp4 *.3gp *.mp4 *.flv *.mkv *.mov *.rm *.mpg *.mpeg *.ogg  "
 set "torrentslist=*.torrent"
 set "songlist=*.mp3 *.wav *.aac *.ogg"
 
