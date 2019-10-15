@@ -15,8 +15,8 @@ set "imagelist=*.jpg *.png *.gif *.jpeg *.bmp "
 set "docslist=*.docx *.doc *.xls *.xlsx *.odf *.rtf *.ppt *.pptx *.odt *.csv"
 set "pdfslist=*.pdf *.mobi *.epub"
 set "zipslist=*.zip *.rar *.7z *.tar *.ace *.tar *.tar.gz *.bz2 *.gz *.gzip"
-set "binlist=*.exe *.msi *.bin"
-set "videoslist=*.avi *.rmvb *.wmv *.mp4 *.3gp *.mp4 *.flv *.mkv *.mov *.rm *.mpg *.mpeg *.ogg  "
+set "binlist=*.exe *.msi *.bin *.jar"
+set "videoslist=*.avi *.rmvb *.wmv *.mp4 *.3gp *.mp4 *.flv *.mkv *.mov *.rm *.mpg *.mpeg "
 set "torrentslist=*.torrent"
 set "songlist=*.mp3 *.wav *.aac *.ogg"
 
@@ -29,7 +29,7 @@ call:Organize "Documents",    "%docslist%"
 call:Organize "PDFS", 		  "%pdfslist%"
 call:Organize "Zips", 		  "%zipslist%"
 call:Organize "Videos", 	  "%videoslist%" 
-call:Organize "Songs"		  "%songlist%"	
+call:Organize "Songs",		  "%songlist%"	
 
 ::::::::::::::::::::
 ::function session::
